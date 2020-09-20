@@ -3,6 +3,8 @@ using namespace std;
 
 int Fact(int n){
 	cout<<n<<endl;
+	
+	if(n < 0)  return -1;
 	if(n == 0) return 1;
 
     int ans = Fact(n-1);
